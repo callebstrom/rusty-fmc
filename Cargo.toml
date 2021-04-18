@@ -1,0 +1,12 @@
+[package]
+name = "rusty-fmc"
+version = "0.1.0"
+authors = ["Carl-Erik Bergström <callebstrom@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "3.0.0-beta.2"
+enum_derive = "0.1.7"
+custom_derive = "0.1.7"
+voca_rs = "1.13.0"
+
