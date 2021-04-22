@@ -29,7 +29,7 @@ impl Cli {
         let matches = App::new("Rusty FMC")
             .version("0.0.1")
             .author("Carl-Erik Bergström <callebstrom@gmail.com>")
-            .about("Installs firmware for }Arduino Mega and acts as a bridge between serial or rest and simconnect")
+            .about("Installs firmware for Arduino Mega and acts as a bridge between serial or rest and simconnect")
             .arg("-a, --airframe=[AIRFAME] 'Sets what airframe to target'")
             .arg("-p, --protocol=[rest,serial] 'Sets what protocol to use'")
             .subcommand(
